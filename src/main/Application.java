@@ -11,11 +11,12 @@ public class Application {
         university.addStudent(new Student("Julia Veselkina"));
         university.addStudent(new Student("Maria Perechrest"));
         university.addStudent(new Student("Ivan Ivanov"));
-        university.addStudent(new Student("Jason Stathem"));
+        university.addStudent(new Student("Jason Statham"));
 
         Internship internship = new Internship("Interlink");
         
         university.sendToInternship(internship);
+
         System.out.println("List of internship's students:");
         System.out.println(internship.getStudents());
     }
